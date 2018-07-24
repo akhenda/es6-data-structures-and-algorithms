@@ -1,3 +1,3 @@
-const helloWorld = () => console.log('Hello, World!');
+const helloWorld = (to) => 'Hello ' + to + '!'
 
-helloWorld();
+export default helloWorld;

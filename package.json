@@ -8,7 +8,7 @@
   },
   "scripts": {
     "start": "babel-node -- index",
-    "test": "echo \"Error: no test specified\" && exit 0",
+    "test": "export NODE_PATH=./ && mocha --compilers js:babel-register --recursive ./__tests__",
     "lint": "eslint index.js src/**/*.js __tests__/**/*.js",
     "validate": "npm run lint && npm run test"
   },
@@ -35,8 +35,10 @@
     "babel-eslint": "^8.2.6",
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-stage-0": "^6.24.1",
+    "chai": "^4.1.2",
     "eslint": "^5.2.0",
     "eslint-config-airbnb-base": "^13.0.0",
-    "eslint-plugin-import": "^2.13.0"
+    "eslint-plugin-import": "^2.13.0",
+    "mocha": "^5.2.0"
   }
 }
