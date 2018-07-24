@@ -8,6 +8,13 @@ cache:
 install:
   - npm install -g codecov
   - yarn
-script:
-  - yarn run test
-  - codecov
+
+jobs:
+  include:
+    - stage: Run Tests
+      script:
+        - yarn run test
+        - codecov
+    - stage: Run Semantic Release
+      script:
+        - npx semantic-release

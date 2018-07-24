@@ -9,7 +9,7 @@
   "scripts": {
     "gc": "git add . && git-cz",
     "start": "babel-node -- index",
-    "test": "export NODE_PATH=./ && nyc --reporter=lcov mocha --compilers js:babel-register --recursive ./__tests__ --timeout 120000 --exit && cat ./coverage/lcov.info | codacy-coverage",
+    "test": "export NODE_PATH=./ && nyc --reporter=lcov mocha --compilers js:babel-register --recursive ./__tests__ --timeout 120000 --exit",
     "lint": "eslint index.js src/**/*.js __tests__/**/*.js",
     "validate": "npm run lint && npm run test",
     "commitmsg": "commitlint -e $GIT_PARAMS",
@@ -37,6 +37,8 @@
   "devDependencies": {
     "@commitlint/cli": "^7.0.0",
     "@commitlint/config-conventional": "^7.0.1",
+    "@semantic-release/changelog": "^3.0.0",
+    "@semantic-release/git": "^7.0.1",
     "babel-cli": "^6.26.0",
     "babel-eslint": "^8.2.6",
     "babel-plugin-module-resolver": "^3.1.1",
@@ -53,7 +55,8 @@
     "husky": "^0.14.3",
     "istanbul": "^0.4.5",
     "mocha": "^5.2.0",
-    "nyc": "^12.0.2"
+    "nyc": "^12.0.2",
+    "semantic-release": "^15.8.1"
   },
   "config": {
     "commitizen": {
@@ -67,5 +70,29 @@
     "extends": [
       "@commitlint/config-conventional"
     ]
+  },
+  "release": {
+    "branch": "develop",
+    "verifyConditions": [
+      "@semantic-release/changelog",
+      "@semantic-release/git",
+      "@semantic-release/github"
+    ],
+    "getLastRelease": "@semantic-release/git",
+    "prepare": [
+      {
+        "path": "@semantic-release/changelog",
+        "changelogFile": "docs/CHANGELOG.md"
+      },
+      {
+        "path": "@semantic-release/git",
+        "assets": [
+          "package.json",
+          "docs"
+        ],
+        "message": "chore(release): v${nextRelease.version} - <%= new Date().toLocaleDateString('en-US', {year: 'numeric', month: 'short', day: 'numeric', hour: 'numeric', minute: 'numeric'}) %> [skip ci]\n\n${nextRelease.notes}"
+      }
+    ],
+    "publish": ["@semantic-release/github"]
   }
 }
