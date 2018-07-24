@@ -10,7 +10,9 @@
     "start": "babel-node -- index",
     "test": "export NODE_PATH=./ && mocha --compilers js:babel-register --recursive ./__tests__",
     "lint": "eslint index.js src/**/*.js __tests__/**/*.js",
-    "validate": "npm run lint && npm run test"
+    "validate": "npm run lint && npm run test",
+    "precommit": "npm run validate",
+    "prepush": "npm run validate"
   },
   "repository": {
     "type": "git",
@@ -39,6 +41,7 @@
     "eslint": "^5.2.0",
     "eslint-config-airbnb-base": "^13.0.0",
     "eslint-plugin-import": "^2.13.0",
+    "husky": "^0.14.3",
     "mocha": "^5.2.0"
   }
 }

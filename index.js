@@ -1,3 +1,3 @@
-const helloWorld = (to) => 'Hello ' + to + '!'
+const helloWorld = to => `Hello ${to}!`;
 
 export default helloWorld;
