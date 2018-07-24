@@ -1,3 +1,13 @@
 {
-  "presets": ["es2015", "stage-0"]
+  "presets": ["es2015", "stage-0"],
+  "plugins": [
+    ["module-resolver", {
+      "root": ["./src"],
+      "alias": {
+        "src": "./src",
+        "tests": "./_tests_"
+      },
+      "cwd": "babelrc"
+    }]
+  ]
 }
