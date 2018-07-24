@@ -1,0 +1,30 @@
+{
+  "name": "es6-data-structures-and-algorithms",
+  "version": "0.0.1",
+  "description": "Popular Data Structures and Algorithms done in JavaScript ES6",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akhenda/es6-data-structures-and-algorithms.git"
+  },
+  "keywords": [
+    "data-structures",
+    "algorithms",
+    "data-structures-and-algorithms",
+    "es6",
+    "es2015"
+  ],
+  "author": "Joseph Akhenda",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/akhenda/es6-data-structures-and-algorithms/issues"
+  },
+  "homepage": "https://github.com/akhenda/es6-data-structures-and-algorithms#readme",
+  "contributors": {}
+}
