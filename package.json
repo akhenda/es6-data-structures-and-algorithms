@@ -7,10 +7,12 @@
     "doc": "docs"
   },
   "scripts": {
+    "gc": "git add . && git-cz",
     "start": "babel-node -- index",
     "test": "export NODE_PATH=./ && nyc --reporter=lcov mocha --compilers js:babel-register --recursive ./__tests__ --timeout 120000 --exit && cat ./coverage/lcov.info | codacy-coverage",
     "lint": "eslint index.js src/**/*.js __tests__/**/*.js",
     "validate": "npm run lint && npm run test",
+    "commitmsg": "commitlint -e $GIT_PARAMS",
     "precommit": "npm run validate",
     "prepush": "npm run validate"
   },
@@ -33,6 +35,8 @@
   "homepage": "https://github.com/akhenda/es6-data-structures-and-algorithms#readme",
   "contributors": {},
   "devDependencies": {
+    "@commitlint/cli": "^7.0.0",
+    "@commitlint/config-conventional": "^7.0.1",
     "babel-cli": "^6.26.0",
     "babel-eslint": "^8.2.6",
     "babel-plugin-module-resolver": "^3.1.1",
@@ -40,6 +44,8 @@
     "babel-preset-stage-0": "^6.24.1",
     "chai": "^4.1.2",
     "codacy-coverage": "^3.0.0",
+    "commitizen": "^2.10.1",
+    "cz-customizable": "^5.2.0",
     "eslint": "^5.2.0",
     "eslint-config-airbnb-base": "^13.0.0",
     "eslint-import-resolver-babel-module": "^4.0.0",
@@ -48,5 +54,18 @@
     "istanbul": "^0.4.5",
     "mocha": "^5.2.0",
     "nyc": "^12.0.2"
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-customizable"
+    },
+    "cz-customizable": {
+      "config": ".cz-config.js"
+    }
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
   }
 }
