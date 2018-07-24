@@ -1,4 +1,4 @@
-_(Thanks for reporting an issue to es6-data-structures-and-algorithms! If you haven't already read the [contributor guidelines](docs/CONTRIBUTING.md), Please do that now, then proceed to fill out the details below.)_
+_(Thanks for reporting an issue to es6-data-structures-and-algorithms! If you haven't already read the [contributor guidelines](../docs/CONTRIBUTING.md), Please do that now, then proceed to fill out the details below.)_
 
 ## What are the minimum necessary steps to reproduce this issue?
 

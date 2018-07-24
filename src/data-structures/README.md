@@ -28,22 +28,22 @@ The following terms are the foundation terms of a data structure.
 | **AVL Tree**            | log(n)    | log(n)    | log(n)    | log(n)    |
 
 
-![](assets/ds-operations-big-o.png)
+![](../../assets/ds-operations-big-o.png)
 
 The following are the data structures covered here:
 
-* [Array](src/data-structures/array)
-* [Linked List](src/data-structures/linked-list)
-* [Doubly Linked List](src/data-structures/doubly-linked-list)
-* [Circular Linked List](src/data-structures/circular-linked-list)
-* [Stack](src/data-structures/stack)
-* [Queue](src/data-structures/queue)
-* [Priority Queue](src/data-structures/priority-queue)
-* [Hash Table](src/data-structures/hash-table)
-* [Graph](src/data-structures/graph)
-* [Spanning Tree](src/data-structures/spanning-tree)
-* [Tree](src/data-structures/tree)
-    * [Binary Search Tree](src/data-structures/tree/binary-search-tree)
-    * [AVL Tree](src/data-structures/tree/avl-tree)
-* [Heap](src/data-structures/heap)
-* [Trie](src/data-structures/trie)
+* [Array](array)
+* [Linked List](linked-list)
+* [Doubly Linked List](doubly-linked-list)
+* [Circular Linked List](circular-linked-list)
+* [Stack](stack)
+* [Queue](queue)
+* [Priority Queue](priority-queue)
+* [Hash Table](hash-table)
+* [Graph](graph)
+* [Spanning Tree](spanning-tree)
+* [Tree](tree)
+    * [Binary Search Tree](tree/binary-search-tree)
+    * [AVL Tree](tree/avl-tree)
+* [Heap](heap)
+* [Trie](trie)
