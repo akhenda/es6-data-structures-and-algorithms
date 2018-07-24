@@ -1,7 +1,12 @@
 # EcmaScript 6 Algorithms and Data Structures
 
-This repository contains some popular Data Structures and Algorithms done in JavaScript ES6.
+[![Build Status](https://travis-ci.org/akhenda/es6-data-structures-and-algorithms.svg?branch=develop)](https://travis-ci.org/akhenda/es6-data-structures-and-algorithms)
+[![codecov](https://codecov.io/gh/akhenda/es6-data-structures-and-algorithms/branch/develop/graph/badge.svg)](https://codecov.io/gh/akhenda/es6-data-structures-and-algorithms)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/f8d6910025c5402f8d9a232155a3a420)](https://www.codacy.com/app/joseph-akhenda/es6-data-structures-and-algorithms?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=akhenda/es6-data-structures-and-algorithms&amp;utm_campaign=Badge_Grade)
+[![Codacy Badge](https://api.codacy.com/project/badge/Coverage/f8d6910025c5402f8d9a232155a3a420)](https://www.codacy.com/app/joseph-akhenda/es6-data-structures-and-algorithms?utm_source=github.com&utm_medium=referral&utm_content=akhenda/es6-data-structures-and-algorithms&utm_campaign=Badge_Coverage)
+[![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/akhenda/es6-data-structures-and-algorithms/blob/develop/LICENSE)
 
+This repository contains some popular Data Structures and Algorithms done in JavaScript ES6.
 
 ## Data Structures
 
