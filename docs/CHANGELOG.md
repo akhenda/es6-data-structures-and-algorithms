@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/akhenda/es6-data-structures-and-algorithms/compare/v1.1.1...v1.2.0) (2018-07-25)
+
+
+### Features
+
+* **ds:** implement Queue data structure ([7e69660](https://github.com/akhenda/es6-data-structures-and-algorithms/commit/7e69660))
+
 ## [1.1.1](https://github.com/akhenda/es6-data-structures-and-algorithms/compare/v1.1.0...v1.1.1) (2018-07-25)
 
 
