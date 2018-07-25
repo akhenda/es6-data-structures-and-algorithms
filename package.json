@@ -10,6 +10,7 @@
     "gc": "git add . && git-cz",
     "start": "babel-node -- index",
     "test": "export NODE_PATH=./ && nyc --reporter=lcov mocha --compilers js:babel-register --recursive ./__tests__ --timeout 120000 --exit",
+    "test-with-coverage": "export NODE_PATH=./ && nyc --reporter=lcov mocha --compilers js:babel-register --recursive ./__tests__ --timeout 120000 --exit && cat ./coverage/lcov.info | codacy-coverage",
     "lint": "eslint index.js src/**/*.js __tests__/**/*.js",
     "validate": "npm run lint && npm run test",
     "commitmsg": "commitlint -e $GIT_PARAMS",
