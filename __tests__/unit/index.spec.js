@@ -4,7 +4,7 @@ import hello from '../../index';
 
 const { expect } = chai;
 
-describe('hello', () => {
+describe('Hello 😃', () => {
   it('should return a greeting to the parameter', () => {
     const greeting = hello('world');
     expect(greeting).to.be.equal('Hello world!');
