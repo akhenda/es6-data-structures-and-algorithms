@@ -1,4 +1,4 @@
-class MyArray {
+export class MyArray {
   constructor() {
     this.array = [];
   }
@@ -31,5 +31,3 @@ class MyArray {
     return this.array.join(' ');
   }
 }
-
-export { MyArray };
