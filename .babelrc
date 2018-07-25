@@ -8,6 +8,10 @@
         "tests": "./_tests_"
       },
       "cwd": "babelrc"
+    }],
+    ["transform-runtime", {
+      "polyfill": false,
+      "regenerator": true
     }]
   ]
 }
