@@ -1,5 +1,5 @@
 import chai from 'chai';
-import { MyArray } from 'src/data-structures/array';
+import MyArray from 'src/data-structures/array';
 
 
 const { expect } = chai;
@@ -55,7 +55,7 @@ describe('Array', () => {
   });
 
   describe('when we remove, add and print elements', () => {
-    it('it remmoves the element "3"', () => {
+    it('it removes the element "3"', () => {
       array.remove(3);
       expect(array.print()).to.equal('1 2 4');
     });
@@ -74,7 +74,7 @@ describe('Array', () => {
       expect(array.print()).to.equal('1 2 4 5 5');
     });
 
-    it('it remmoves the element "5"', () => {
+    it('it removes the element "5"', () => {
       array.remove(5);
       expect(array.print()).to.equal('1 2 4');
     });

@@ -32,7 +32,9 @@
     "react/prefer-stateless-function": 0,
     "react/forbid-prop-types": 0,
     "react/jsx-indent": 0,
-    "import/named": 2
+    "import/named": 2,
+    "no-plusplus": 0,
+    "no-underscore-dangle": 0
   },
   "settings": {
     "import/resolver": {
