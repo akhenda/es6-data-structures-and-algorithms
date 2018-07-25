@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/akhenda/es6-data-structures-and-algorithms/compare/v1.2.0...v1.3.0) (2018-07-25)
+
+
+### Features
+
+* **ds:** implement Linked List data structure ([7655d87](https://github.com/akhenda/es6-data-structures-and-algorithms/commit/7655d87))
+
 # [1.2.0](https://github.com/akhenda/es6-data-structures-and-algorithms/compare/v1.1.1...v1.2.0) (2018-07-25)
 
 
