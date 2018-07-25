@@ -25,24 +25,22 @@ export default class Stack {
   }
 
   /**
-   * does the reverse of the push() and then decrements the top variable
+   * does the reverse of the push() and then decrements the top pointer variable
    * @return {any} the element in the top position of the stack or an error message
    */
   pop() {
-    // return this._data[--this._top];
-
     if (this._top === 0) {
       return 'No element inside the stack. Add element before poping.';
     }
 
-    const value = this._data[--this._top];
+    const element = this._data[--this._top];
     delete this._data[this._top];
 
     if (this._top < 0) {
       this._top = 0;
     }
 
-    return value;
+    return element;
   }
 
   /**
