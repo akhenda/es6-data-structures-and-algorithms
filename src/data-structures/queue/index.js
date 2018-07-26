@@ -1,7 +1,7 @@
 export default class Queue {
   /**
    * initializes the queue
-   * @param {number} capacity the capacity of the queue
+   * @param {number} capacity - the capacity of the queue
    */
   constructor(capacity = Infinity) {
     this._capacity = capacity;

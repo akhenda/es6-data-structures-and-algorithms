@@ -1,7 +1,7 @@
 export default class Stack {
   /**
    * initializes the stack
-   * @param {number} capacity the capacity of the stack
+   * @param {number} capacity - the capacity of the stack
    */
   constructor(capacity = Infinity) {
     this._capacity = capacity;

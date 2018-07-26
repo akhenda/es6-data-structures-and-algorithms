@@ -1,10 +1,10 @@
 export default class Node {
   /**
    * initializes the node
-   * @param {any} data - the value of the node
    */
-  constructor(data, next = null) {
+  constructor(data, next = null, prev = null) {
     this.data = data;
+    this.prev = prev;
     this.next = next;
   }
 }

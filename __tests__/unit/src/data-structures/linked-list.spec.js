@@ -6,7 +6,7 @@ import LinkedList from 'src/data-structures/linked-list';
 const { expect } = chai;
 
 /* eslint-disable no-restricted-syntax */
-describe('Node', () => {
+describe('LinkedListNode', () => {
   it('is a class', () => {
     expect(typeof Node.prototype.constructor).to.equal('function');
   });
