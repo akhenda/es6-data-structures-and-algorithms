@@ -39,6 +39,7 @@ The following are the data structures covered here:
 * [Queue](queue)
 * [Priority Queue](priority-queue)
 * [Set](set)
+* [Disjoint Set](disjoint-set)
 * [Hash Table](hash-table)
 * [Graph](graph)
 * [Spanning Tree](spanning-tree)
