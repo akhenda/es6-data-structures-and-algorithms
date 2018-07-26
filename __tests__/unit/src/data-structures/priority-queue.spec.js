@@ -1,17 +1,17 @@
 import chai from 'chai';
-import Queue from 'src/data-structures/queue';
+import PriorityQueue from 'src/data-structures/priority-queue';
 
 
 const { expect } = chai;
 
-describe('Queue', () => {
-  const queue = new Queue(4);
+describe('PriorityQueue', () => {
+  const queue = new PriorityQueue(4);
 
   beforeEach(() => {});
 
   it('creates a queue successfully', () => {
     expect(queue).to.be.an('object');
-    expect(queue).to.be.an.instanceof(Queue);
+    expect(queue).to.be.an.instanceof(PriorityQueue);
   });
 
   it('the queue has a capacity of 4', () => {
@@ -20,22 +20,22 @@ describe('Queue', () => {
 
   describe('when we enqueue the queue', () => {
     it('it enqueues "a" onto the queue', () => {
-      queue.enqueue('a');
+      queue.enqueue('a', 2);
       expect(queue.size()).to.equal(1);
     });
 
     it('it enqueues "b" onto the queue', () => {
-      queue.enqueue('b');
+      queue.enqueue('b', 1);
       expect(queue.size()).to.equal(2);
     });
 
     it('it enqueues "c" onto the queue', () => {
-      queue.enqueue('c');
+      queue.enqueue('c', 1);
       expect(queue.size()).to.equal(3);
     });
 
     it('it enqueues "d" onto the queue', () => {
-      queue.enqueue('d');
+      queue.enqueue('d', 5);
       expect(queue.size()).to.equal(4);
     });
 
@@ -44,30 +44,30 @@ describe('Queue', () => {
     });
 
     it('it prints all the elements we have just enqueued', () => {
-      expect(queue.print()).to.equal('a b c d');
+      expect(queue.print()).to.equal('b c a d');
     });
 
     it('it does not enqueue "e" onto the queue', () => {
       const msg = 'Max capacity reached. Remove element before adding a new one.';
-      expect(queue.enqueue('e')).to.equal(msg);
+      expect(queue.enqueue('e', 3)).to.equal(msg);
     });
   });
 
   describe('when we peek, dequeue, enqueue and print elements', () => {
     it('it peeks at the queue', () => {
-      expect(queue.peek()).to.equal('a');
+      expect(queue.peek()).to.equal('b');
     });
 
     it('it dequeues the queue', () => {
-      expect(queue.dequeue()).to.equal('a');
+      expect(queue.dequeue()).to.equal('b');
     });
 
     it('it prints elements in the queue', () => {
-      expect(queue.print()).to.equal('b c d');
+      expect(queue.print()).to.equal('c a d');
     });
 
     it('it dequeues the queue again', () => {
-      expect(queue.dequeue()).to.equal('b');
+      expect(queue.dequeue()).to.equal('c');
     });
 
     it('it has a size of 2 now', () => {
@@ -75,7 +75,7 @@ describe('Queue', () => {
     });
 
     it('it dequeues the queue again', () => {
-      expect(queue.dequeue()).to.equal('c');
+      expect(queue.dequeue()).to.equal('a');
     });
 
     it('it has a size of 1 now', () => {
