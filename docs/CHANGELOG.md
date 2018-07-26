@@ -1,3 +1,10 @@
+# [1.5.0](https://github.com/akhenda/es6-data-structures-and-algorithms/compare/v1.4.0...v1.5.0) (2018-07-26)
+
+
+### Features
+
+* **ds:** implement Priority Queue data structure ([1c446a9](https://github.com/akhenda/es6-data-structures-and-algorithms/commit/1c446a9))
+
 # [1.4.0](https://github.com/akhenda/es6-data-structures-and-algorithms/compare/v1.3.0...v1.4.0) (2018-07-26)
 
 
