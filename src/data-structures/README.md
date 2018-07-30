@@ -39,12 +39,14 @@ The following are the data structures covered here:
 * [Queue](queue)
 * [Priority Queue](priority-queue)
 * [Set](set)
+* Bloom Filter
 * [Disjoint Set](disjoint-set)
 * [Hash Table](hash-table)
 * [Graph](graph)
-* [Spanning Tree](spanning-tree)
 * [Tree](tree)
-    * [Binary Search Tree](tree/binary-search-tree)
-    * [AVL Tree](tree/avl-tree)
-* [Heap](heap)
+* [Binary Search Tree](binary-search-tree)
+* [AVL Tree](avl-tree)
+* [Min Heap](min-heap)
+* [Max Heap](max-heap)
 * [Trie](trie)
+* B-Tree

@@ -50,14 +50,16 @@ The following are the data structures covered here:
 * [Priority Queue](src/data-structures/priority-queue)
 * [Set](src/data-structures/set)
 * [Disjoint Set](src/data-structures/disjoint-set)
+* Bloom Filter
 * [Hash Table](src/data-structures/hash-table)
 * [Graph](src/data-structures/graph)
-* [Spanning Tree](src/data-structures/spanning-tree)
 * [Tree](src/data-structures/tree)
-    * [Binary Search Tree](src/data-structures/tree/binary-search-tree)
-    * [AVL Tree](src/data-structures/tree/avl-tree)
-* [Heap](src/data-structures/heap)
+* [Binary Search Tree](src/data-structures/binary-search-tree)
+* [AVL Tree](src/data-structures/avl-tree)
+* [Min Heap](src/data-structures/min-heap)
+* [Max Heap](src/data-structures/max-heap)
 * [Trie](src/data-structures/trie)
+* B-Tree
 
 ## Algorithms
 
