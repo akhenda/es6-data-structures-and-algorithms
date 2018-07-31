@@ -35,8 +35,8 @@ where **k** is the word length.
 
 ## References
 
-- [Wikipedia](https://en.wikipedia.org/wiki/Trie)
-- [Vaidehi Joshi](https://medium.com/basecs/trying-to-understand-tries-3ec6bede0014)
-- [GeeksforGeeks](https://www.geeksforgeeks.org/trie-insert-and-search/)
-- [YouTube](https://www.youtube.com/watch?v=zIjfhVPRZCg&list=PLLXdhg_r2hKA7DPDsunoDZ-Z769jWn4R8&index=7&t=0s)
-- [YouTube](https://www.youtube.com/watch?v=dUBkaqrcYT8)
+-   [Wikipedia](https://en.wikipedia.org/wiki/Trie)
+-   [Vaidehi Joshi](https://medium.com/basecs/trying-to-understand-tries-3ec6bede0014)
+-   [GeeksforGeeks](https://www.geeksforgeeks.org/trie-insert-and-search/)
+-   [YouTube](https://www.youtube.com/watch?v=zIjfhVPRZCg&list=PLLXdhg_r2hKA7DPDsunoDZ-Z769jWn4R8&index=7&t=0s)
+-   [YouTube](https://www.youtube.com/watch?v=dUBkaqrcYT8)

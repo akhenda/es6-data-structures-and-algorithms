@@ -48,5 +48,5 @@ Hash collision resolved by open addressing with linear probing (interval=1). Not
 
 ## References
 
-- [Wikipedia](https://en.wikipedia.org/wiki/Hash_table)
-- [YouTube](https://www.youtube.com/watch?v=shs0KM3wKv8&index=4&list=PLLXdhg_r2hKA7DPDsunoDZ-Z769jWn4R8)
+-   [Wikipedia](https://en.wikipedia.org/wiki/Hash_table)
+-   [YouTube](https://www.youtube.com/watch?v=shs0KM3wKv8&index=4&list=PLLXdhg_r2hKA7DPDsunoDZ-Z769jWn4R8)

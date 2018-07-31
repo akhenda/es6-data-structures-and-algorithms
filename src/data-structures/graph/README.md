@@ -24,8 +24,8 @@ In the above graph,
 
 There are different ways of representing a graph, each of them with its own advantages and disadvantages. Here are the two main ones:
 
-* **Adjacency list:** For every vertex a list of adjacent vertices is stored. This can be viewed as storing the list of edges. This data structure allows the storage of additional data on the vertices and edges.
-* **Adjacency matrix:** Data are stored in a two-dimensional matrix, in which the rows represent source vertices and columns represent destination vertices. The data on the edges and vertices must be stored externally.
+-   **Adjacency list:** For every vertex a list of adjacent vertices is stored. This can be viewed as storing the list of edges. This data structure allows the storage of additional data on the vertices and edges.
+-   **Adjacency matrix:** Data are stored in a two-dimensional matrix, in which the rows represent source vertices and columns represent destination vertices. The data on the edges and vertices must be stored externally.
 
 If a tree is free to have more than one parent, it becomes a `Graph`. Edges that connect vertices together in a graph can be *directed* or *undirected*, *weighted* or *unweighted*. Edges that have both direction and weight are analogous to *vectors*.
 
@@ -46,8 +46,8 @@ Simple representation of a Graph (Our sample graph)
 
 ## References
 
-- [Wikipedia](https://en.wikipedia.org/wiki/Graph_(abstract_data_type))
-- [Silicon Wat](https://medium.com/siliconwat/data-structures-in-javascript-1b9aed0ea17c)
-- [BSC](http://btechsmartclass.com/)
-- [YouTube](https://www.youtube.com/watch?v=gXgEDyodOJU&index=9&list=PLLXdhg_r2hKA7DPDsunoDZ-Z769jWn4R8)
-- [YouTube](https://www.youtube.com/watch?v=k1wraWzqtvQ&index=10&list=PLLXdhg_r2hKA7DPDsunoDZ-Z769jWn4R8)
+-   [Wikipedia](https://en.wikipedia.org/wiki/Graph_(abstract_data_type))
+-   [Silicon Wat](https://medium.com/siliconwat/data-structures-in-javascript-1b9aed0ea17c)
+-   [BSC](http://btechsmartclass.com/)
+-   [YouTube](https://www.youtube.com/watch?v=gXgEDyodOJU&index=9&list=PLLXdhg_r2hKA7DPDsunoDZ-Z769jWn4R8)
+-   [YouTube](https://www.youtube.com/watch?v=k1wraWzqtvQ&index=10&list=PLLXdhg_r2hKA7DPDsunoDZ-Z769jWn4R8)

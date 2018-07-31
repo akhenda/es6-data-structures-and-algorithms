@@ -23,6 +23,6 @@ Both trees are constructed using the same input and order of arrival.
 
 ## References
 
-- [Tutorialspoint](https://www.tutorialspoint.com/data_structures_algorithms/heap_data_structure.htm)
-- [YouTube - Yusuf Shakeel](https://www.youtube.com/watch?v=ixdWTKWSz7s)
-- [YouTube - Hackerank](https://www.youtube.com/watch?v=t0Cq6tVNRBA&t=34s)
+-   [Tutorialspoint](https://www.tutorialspoint.com/data_structures_algorithms/heap_data_structure.htm)
+-   [YouTube - Yusuf Shakeel](https://www.youtube.com/watch?v=ixdWTKWSz7s)
+-   [YouTube - Hackerank](https://www.youtube.com/watch?v=t0Cq6tVNRBA&t=34s)

@@ -33,6 +33,6 @@ Simple representation of a linked list.
 
 ## References
 
-- [Wikipedia](https://en.wikipedia.org/wiki/Linked_list)
-- [Silicon Wat(Medium)](https://medium.com/siliconwat/data-structures-in-javascript-1b9aed0ea17c)
-- [YouTube](https://www.youtube.com/watch?v=njTh_OwMljA&index=2&t=1s&list=PLLXdhg_r2hKA7DPDsunoDZ-Z769jWn4R8)
+-   [Wikipedia](https://en.wikipedia.org/wiki/Linked_list)
+-   [Silicon Wat(Medium)](https://medium.com/siliconwat/data-structures-in-javascript-1b9aed0ea17c)
+-   [YouTube](https://www.youtube.com/watch?v=njTh_OwMljA&index=2&t=1s&list=PLLXdhg_r2hKA7DPDsunoDZ-Z769jWn4R8)

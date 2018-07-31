@@ -24,14 +24,14 @@ The height of the tree equals the number of edges between the root and a leaf. T
 
 Number of nodes: <img src="/assets/2-raised-to-levels-minus-1.svg?invert_in_darkmode&sanitize=true" align=middle width=81.73950344999999pt height=29.190975000000005pt/> maximum nodes where `levels = height + 1` where `height = edges-between-root-and-leaf`
 
-- 1 edge, 2 levels => <img src="/assets/2-squared-minus-one.svg?invert_in_darkmode&sanitize=true" align=middle width=74.04091034999999pt height=26.76175259999998pt/> nodes N | NN
-- 2 edges, 3 levels => <img src="/assets/2-cubed-minus-one.svg?invert_in_darkmode&sanitize=true" align=middle width=74.04091034999999pt height=26.76175259999998pt/> nodes N | NN | NN NN
-- 3 edges, 4 levels => <img src="/assets/2-raised-to-4-minus-1.svg?invert_in_darkmode&sanitize=true" align=middle width=82.26011969999999pt height=26.76175259999998pt/> nodes N | NN | NN NN | NN NN NN NN
+-   1 edge, 2 levels => <img src="/assets/2-squared-minus-one.svg?invert_in_darkmode&sanitize=true" align=middle width=74.04091034999999pt height=26.76175259999998pt/> nodes N | NN
+-   2 edges, 3 levels => <img src="/assets/2-cubed-minus-one.svg?invert_in_darkmode&sanitize=true" align=middle width=74.04091034999999pt height=26.76175259999998pt/> nodes N | NN | NN NN
+-   3 edges, 4 levels => <img src="/assets/2-raised-to-4-minus-1.svg?invert_in_darkmode&sanitize=true" align=middle width=82.26011969999999pt height=26.76175259999998pt/> nodes N | NN | NN NN | NN NN NN NN
 
 Maximum number of nodes at i level = <img src="/assets/2-raised-to-i.svg?invert_in_darkmode&sanitize=true" align=middle width=39.97070879999999pt height=29.190975000000005pt/> (level 0 => 1, level 1 => 2, level 2 => 4, level 3 => 8)
 
-- if n nodes, than number of `levels = log(n + 1)`, depth still levels - 1
-- if n nodes, than the `number of edges = n - 1`
+-   if n nodes, than number of `levels = log(n + 1)`, depth still levels - 1
+-   if n nodes, than the `number of edges = n - 1`
 
 Take a look at the following tree:-
 
@@ -52,6 +52,6 @@ A binary search tree of size 9 and depth 3, with 8 at the root. The leaves are n
 
 ## References
 
-- [Wikipedia](https://en.wikipedia.org/wiki/Binary_search_tree)
-- [Inserting to BST on YouTube](https://www.youtube.com/watch?v=wcIRPqTR3Kc&list=PLLXdhg_r2hKA7DPDsunoDZ-Z769jWn4R8&index=9&t=0s)
-- [BST Interactive Visualisations](https://www.cs.usfca.edu/~galles/visualization/BST.html)
+-   [Wikipedia](https://en.wikipedia.org/wiki/Binary_search_tree)
+-   [Inserting to BST on YouTube](https://www.youtube.com/watch?v=wcIRPqTR3Kc&list=PLLXdhg_r2hKA7DPDsunoDZ-Z769jWn4R8&index=9&t=0s)
+-   [BST Interactive Visualisations](https://www.cs.usfca.edu/~galles/visualization/BST.html)

@@ -16,13 +16,13 @@ According to Wikipedia:
 
 The following terms are the foundation terms of a data structure.
 
-* **Interface** - This represents the set of operation supported by a data structure
-* **Implementation** - This provides the definition of algorithms used in the operations of the data structure i.e. it provides the internal representation of the data structure
+*   **Interface** - This represents the set of operation supported by a data structure
+*   **Implementation** - This provides the definition of algorithms used in the operations of the data structure i.e. it provides the internal representation of the data structure
 
 ### Characteristics of a Data Structure
-1. **Correctness** - a data structure should implement its interface correctly
-2. **Time Complexity** - execution time of operations of a data structure should be as small as possible
-3. **Space Complexity** - memory usage of a data structure operation should be as little as possible
+1.  **Correctness** - a data structure should implement its interface correctly
+2.  **Time Complexity** - execution time of operations of a data structure should be as small as possible
+3.  **Space Complexity** - memory usage of a data structure operation should be as little as possible
 
 ### Data Structure Operations Complexity
 
@@ -38,28 +38,33 @@ The following terms are the foundation terms of a data structure.
 | **AVL Tree**            | log(n)    | log(n)    | log(n)    | log(n)    |
 
 
-![](assets/ds-operations-big-o.png)
+![DS Operations](assets/ds-operations-big-o.png)
 
 The following are the data structures covered here:
 
-* [Array](src/data-structures/array)
-* [Linked List](src/data-structures/linked-list)
-* [Doubly Linked List](src/data-structures/doubly-linked-list)
-* [Stack](src/data-structures/stack)
-* [Queue](src/data-structures/queue)
-* [Priority Queue](src/data-structures/priority-queue)
-* [Set](src/data-structures/set)
-* [Disjoint Set](src/data-structures/disjoint-set)
-* Bloom Filter
-* [Hash Table](src/data-structures/hash-table)
-* [Graph](src/data-structures/graph)
-* [Tree](src/data-structures/tree)
-* [Binary Search Tree](src/data-structures/binary-search-tree)
-* [AVL Tree](src/data-structures/avl-tree)
-* [Min Heap](src/data-structures/min-heap)
-* [Max Heap](src/data-structures/max-heap)
-* [Trie](src/data-structures/trie)
-* B-Tree
+-   [Array](src/data-structures/array)
+-   [Linked List](src/data-structures/linked-list)
+-   [Doubly Linked List](src/data-structures/doubly-linked-list)
+-   [Stack](src/data-structures/stack)
+-   [Queue](src/data-structures/queue)
+-   [Priority Queue](src/data-structures/priority-queue)
+-   [Set](src/data-structures/set)
+-   [Disjoint Set](src/data-structures/disjoint-set)
+-   [Bloom Filter](src/data-structures/bloom-filter)
+-   [Skip List](src/data-structures/skip-list)
+-   [Hash Table](src/data-structures/hash-table)
+-   [Graph](src/data-structures/graph)
+-   [Tree](src/data-structures/tree)
+-   [Binary Search Tree](src/data-structures/binary-search-tree)
+-   [AVL Tree](src/data-structures/avl-tree)
+-   [Red Black Tree](src/data-structures/red-black-tree)
+-   [Splay Tree](src/data-structures/splay-tree)
+-   [B-Tree](src/data-structures/b-tree)
+-   [Trie](src/data-structures/trie)
+-   [Min Heap](src/data-structures/min-heap)
+-   [Max Heap](src/data-structures/max-heap)
+-   [Binomial Heap](src/data-structures/binomial-heap)
+-   [Fibonacci Heap](src/data-structures/fibonacci-heap)
 
 ## Algorithms
 
@@ -67,30 +72,30 @@ This is a process or set of rules to be followed in calculations or other proble
 
 The following are the algorithms covered here:
 
-* **Searches**
-  * [Linear Search](src/algorithms/search/linear-search)
-  * [Binary Search](src/algorithms/search/binary-search)
-  * [Jump/Block Search](src/algorithms/search/jump-search)
-  * [Interpolation Search](src/algorithms/search/interpolation-search)
-* **Sorting**
-  * [Bubble Sort](src/algorithms/sorting/bubble-sort)
-  * [Selection Sort](src/algorithms/sorting/selection-sort)
-  * [Insertion Sort](src/algorithms/sorting/insertion-sort)
-  * [Merge Sort](src/algorithms/sorting/merge-sort)
-  * [Heap Sort](src/algorithms/sorting/heap-sort)
-  * [Quicksort](src/algorithms/sorting/quick-sort)
-  * [Shellsort](src/algorithms/sorting/shell-sort)
-  * [Counting Sort](src/algorithms/sorting/counting-sort)
-  * [Radix Sort](src/algorithms/sorting/radix-sort)
-* **Graphs**
-  * [Depth-First Search (DFS)](src/algorithms/graph/depth-first-search)
-  * [Breadth-First Search (BFS)](src/algorithms/graph/breadth-first-search)
-  * [Kruskal’s Algorithm](src/algorithms/graph/kruskal) - finding Minimum Spanning Tree (MST) for weighted undirected graph
-  * [Dijkstra Algorithm](src/algorithms/graph/dijkstra) - finding shortest paths to all graph vertices from single vertex
-  * [Prim’s Algorithm](src/algorithms/graph/prim) - finding Minimum Spanning Tree (MST) for weighted undirected graph
-  * [Travelling Salesman Problem](src/algorithms/graph/travelling-salesman) - shortest possible route that visits each city and returns to the origin city
-* **Others**
-  * [Tower of Hanoi](src/algorithms/uncategorized/hanoi-tower)
+-   **Searches**
+    -   [Linear Search](src/algorithms/search/linear-search)
+    -   [Binary Search](src/algorithms/search/binary-search)
+    -   [Jump/Block Search](src/algorithms/search/jump-search)
+    -   [Interpolation Search](src/algorithms/search/interpolation-search)
+-   **Sorting**
+    -   [Bubble Sort](src/algorithms/sorting/bubble-sort)
+    -   [Selection Sort](src/algorithms/sorting/selection-sort)
+    -   [Insertion Sort](src/algorithms/sorting/insertion-sort)
+    -   [Merge Sort](src/algorithms/sorting/merge-sort)
+    -   [Heap Sort](src/algorithms/sorting/heap-sort)
+    -   [Quicksort](src/algorithms/sorting/quick-sort)
+    -   [Shellsort](src/algorithms/sorting/shell-sort)
+    -   [Counting Sort](src/algorithms/sorting/counting-sort)
+    -   [Radix Sort](src/algorithms/sorting/radix-sort)
+-   **Graphs**
+    -   [Depth-First Search (DFS)](src/algorithms/graph/depth-first-search)
+    -   [Breadth-First Search (BFS)](src/algorithms/graph/breadth-first-search)
+    -   [Kruskal’s Algorithm](src/algorithms/graph/kruskal) - finding Minimum Spanning Tree (MST) for weighted undirected graph
+    -   [Dijkstra Algorithm](src/algorithms/graph/dijkstra) - finding shortest paths to all graph vertices from single vertex
+    -   [Prim’s Algorithm](src/algorithms/graph/prim) - finding Minimum Spanning Tree (MST) for weighted undirected graph
+    -   [Travelling Salesman Problem](src/algorithms/graph/travelling-salesman) - shortest possible route that visits each city and returns to the origin city
+-   **Others**
+    -   [Tower of Hanoi](src/algorithms/uncategorized/hanoi-tower)
 
 ### Array Sorting Algorithms Complexity
 
@@ -112,6 +117,16 @@ The following are the algorithms covered here:
 This is a theoretical measure of the execution of an algorithm, usually the time or memory needed, given the problem size **n**, which is usually the number of items. Informally, saying some equation `f(n) = O(g(n))` means it is less than some constant multiple of `g(n)`.
 
 It is used in Computer Science to describe the performance or complexity of an algorithm. Big-O specifically describes the worst-case scenario, and can be used to describe the execution time required or the space used (e.g. in memory or on disk) by an algorithm.
+
+The most optimum algorithm scales in *constant* time and space. This means it does not care at all about the growth of its inputs. Next best is *logarithmic* time or space, then *linear*, *linearithmic*, *quadratic*, and *exponential*. The worst is *factorial* time or space. In **Big-O** notation:
+
+1.  **Constant:** O(1)
+2.  **Logarithmic:** O(log n)
+3.  **Linear:** O(n)
+4.  **Linearithmic:** O(n log n)
+5.  **Quadratic:** O(n²)
+6.  **Expontential:** O(2^n)
+7.  **Factorial:** O(n!)
 
 Below is the list of some of the most used Big O notations and their performance comparisons against different sizes of the input data.
 

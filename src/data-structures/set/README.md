@@ -1,4 +1,4 @@
-## Queue
+## Set
 
 According to Wikipedia:
 
@@ -27,5 +27,5 @@ Simple representation of a Set
 
 ## References
 
-- [Wikipedia](https://en.wikipedia.org/wiki/Set_(abstract_data_type))
-- [Prof. Steven Skiena](http://algorist.com/problems/Set_Data_Structures.html)
+-   [Wikipedia](https://en.wikipedia.org/wiki/Set_(abstract_data_type))
+-   [Prof. Steven Skiena](http://algorist.com/problems/Set_Data_Structures.html)

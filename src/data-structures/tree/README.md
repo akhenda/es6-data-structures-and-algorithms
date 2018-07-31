@@ -35,7 +35,7 @@ A simple unordered tree; in this diagram, the node labeled 7 has two children, l
 
 ## References
 
-- [Wikipedia](https://en.wikipedia.org/wiki/Tree_(data_structure))
-- [Java2s](http://www.java2s.com/Tutorials/Javascript/Javascript_Data_Structure/0420__Javascript_Binary_Tree.htm)
-- [YouTube](https://www.youtube.com/watch?v=qH6yxkw0u78)
-- [YouTube](https://www.youtube.com/watch?v=oSWTXtMglKE)
+-   [Wikipedia](https://en.wikipedia.org/wiki/Tree_(data_structure))
+-   [Java2s](http://www.java2s.com/Tutorials/Javascript/Javascript_Data_Structure/0420__Javascript_Binary_Tree.htm)
+-   [YouTube](https://www.youtube.com/watch?v=qH6yxkw0u78)
+-   [YouTube](https://www.youtube.com/watch?v=oSWTXtMglKE)

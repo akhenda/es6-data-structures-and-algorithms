@@ -23,5 +23,5 @@ Simple representation of a doubly linked list.
 
 ## References
 
-- [Wikipedia](https://en.wikipedia.org/wiki/Doubly_linked_list)
-- [YouTube](https://www.youtube.com/watch?v=JdQeNxWCguQ&t=7s&index=72&list=PLLXdhg_r2hKA7DPDsunoDZ-Z769jWn4R8)
+-   [Wikipedia](https://en.wikipedia.org/wiki/Doubly_linked_list)
+-   [YouTube](https://www.youtube.com/watch?v=JdQeNxWCguQ&t=7s&index=72&list=PLLXdhg_r2hKA7DPDsunoDZ-Z769jWn4R8)

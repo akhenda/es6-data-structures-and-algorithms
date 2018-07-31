@@ -1,4 +1,4 @@
-## Queue
+## Disjoint Set
 
 According to Wikipedia:
 
@@ -39,5 +39,5 @@ Merging sets
 
 ## References
 
-- [Wikipedia](https://en.wikipedia.org/wiki/Disjoint-set_data_structure)
-- [YouTube - Abdul Bari](https://www.youtube.com/watch?v=wU6udHRIkcc&index=14&t=0s&list=PLLXdhg_r2hKA7DPDsunoDZ-Z769jWn4R8)
+-   [Wikipedia](https://en.wikipedia.org/wiki/Disjoint-set_data_structure)
+-   [YouTube - Abdul Bari](https://www.youtube.com/watch?v=wU6udHRIkcc&index=14&t=0s&list=PLLXdhg_r2hKA7DPDsunoDZ-Z769jWn4R8)

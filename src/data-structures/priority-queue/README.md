@@ -1,4 +1,4 @@
-## Queue
+## Priority Queue
 
 According to Wikipedia:
 
@@ -17,9 +17,9 @@ According to Wikipedia:
 
 Simple representation of a priority queue
 
-![Queue](http://coopsoft.com/ar/i/priorityQue.gif)
+![Priority Queue](http://coopsoft.com/ar/i/priorityQue.gif)
 
 ## References
 
-- [Wikipedia](https://en.wikipedia.org/wiki/Priority_queue)
-- [YouTube](https://www.youtube.com/watch?v=wptevk0bshY&list=PLLXdhg_r2hKA7DPDsunoDZ-Z769jWn4R8&index=6)
+-   [Wikipedia](https://en.wikipedia.org/wiki/Priority_queue)
+-   [YouTube](https://www.youtube.com/watch?v=wptevk0bshY&list=PLLXdhg_r2hKA7DPDsunoDZ-Z769jWn4R8&index=6)
