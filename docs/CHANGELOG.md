@@ -1,3 +1,11 @@
+# [1.6.0](https://github.com/akhenda/es6-data-structures-and-algorithms/compare/v1.5.0...v1.6.0) (2018-08-01)
+
+
+### Features
+
+* **ds:** implement Disjoint Set data structure ([16f020c](https://github.com/akhenda/es6-data-structures-and-algorithms/commit/16f020c))
+* **ds:** implement Set data structure ([4374943](https://github.com/akhenda/es6-data-structures-and-algorithms/commit/4374943))
+
 # [1.6.0](https://github.com/akhenda/es6-data-structures-and-algorithms/compare/v1.5.0...v1.6.0) (2018-07-26)
 
 
