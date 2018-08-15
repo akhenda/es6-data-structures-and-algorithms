@@ -1,1 +1,5 @@
-// silence is golden
+import isArraySorted from './isArraySorted';
+
+export {
+  isArraySorted,
+};

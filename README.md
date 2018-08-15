@@ -40,7 +40,7 @@ The following terms are the foundation terms of a data structure.
 
 ![DS Operations](assets/ds-operations-big-o.png)
 
-The following are the data structures covered here:
+Shown below are the data structures covered here:
 
 -   [Array](src/data-structures/array)
 -   [Linked List](src/data-structures/linked-list)
@@ -246,8 +246,8 @@ npm run lint
 
 ## Resources
 
-[Javascript Algorithms - Oleksii Trekhleb](https://github.com/trekhleb/javascript-algorithms)
-[Data Structures and Algorithms Playlist on Youtube](https://www.youtube.com/playlist?list=PLLXdhg_r2hKA7DPDsunoDZ-Z769jWn4R8)
+-   [Javascript Algorithms - Oleksii Trekhleb](https://github.com/trekhleb/javascript-algorithms)
+-   [Data Structures and Algorithms Playlist on Youtube](https://www.youtube.com/playlist?list=PLLXdhg_r2hKA7DPDsunoDZ-Z769jWn4R8)
 
 ## License
 
