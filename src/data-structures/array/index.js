@@ -1,4 +1,10 @@
 export default class MyArray {
+  /**
+   * initialize MyArray
+   * 
+   * in this case we'll use JavaScript built-in array 😄
+   * we should probably try using an object next time
+   */
   constructor() {
     this.array = [];
   }

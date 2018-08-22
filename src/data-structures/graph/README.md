@@ -48,6 +48,7 @@ Simple representation of a Graph (Our sample graph)
 
 -   [Wikipedia](https://en.wikipedia.org/wiki/Graph_(abstract_data_type))
 -   [Silicon Wat](https://medium.com/siliconwat/data-structures-in-javascript-1b9aed0ea17c)
--   [BSC](http://btechsmartclass.com/)
+-   [BSC](http://btechsmartclass.com/DS/U3_T8.html)
+-   [Benoit Vallon](http://blog.benoitvallon.com/data-structures-in-javascript/the-graph-data-structure/)
 -   [YouTube](https://www.youtube.com/watch?v=gXgEDyodOJU&index=9&list=PLLXdhg_r2hKA7DPDsunoDZ-Z769jWn4R8)
 -   [YouTube](https://www.youtube.com/watch?v=k1wraWzqtvQ&index=10&list=PLLXdhg_r2hKA7DPDsunoDZ-Z769jWn4R8)
