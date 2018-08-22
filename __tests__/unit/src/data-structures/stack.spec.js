@@ -5,7 +5,7 @@ import Stack from 'src/data-structures/stack';
 const { expect } = chai;
 
 describe('Stack', () => {
-  const stack = new Stack();
+  const stack = new Stack(4);
 
   beforeEach(() => {});
 
@@ -41,6 +41,11 @@ describe('Stack', () => {
 
     it('it prints all the elements we have just pushed onto the stack', () => {
       expect(stack.print()).to.equal('1 2 3 4');
+    });
+
+    it('it does not add "5" onto the Stack', () => {
+      const msg = 'Max capacity already reached. Remove element before adding a new one.';
+      expect(stack.push(5)).to.equal(msg);
     });
   });
 

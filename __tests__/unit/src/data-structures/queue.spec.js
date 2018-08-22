@@ -21,6 +21,7 @@ describe('Queue', () => {
   describe('when we enqueue the queue', () => {
     it('it enqueues "a" onto the queue', () => {
       queue.enqueue('a');
+      expect(queue.isEmpty()).to.equal(true);
       expect(queue.size()).to.equal(1);
     });
 
@@ -41,10 +42,19 @@ describe('Queue', () => {
 
     it('it has a size of 4', () => {
       expect(queue.size()).to.equal(4);
+      expect(queue.isEmpty()).to.equal(false);
     });
 
     it('it prints all the elements we have just enqueued', () => {
       expect(queue.print()).to.equal('a b c d');
+    });
+
+    it('it has "a" in front of others', () => {
+      expect(queue.front()).to.equal('a');
+    });
+
+    it('it has "d" at the back of the queue', () => {
+      expect(queue.back()).to.equal('d');
     });
 
     it('it does not enqueue "e" onto the queue', () => {
@@ -116,6 +126,11 @@ describe('Queue', () => {
 
     it('it contains "f"', () => {
       expect(queue.contains('f')).to.equal(true);
+    });
+
+    it('it now does not contain "f"', () => {
+      queue.clear();
+      expect(queue.contains('f')).to.equal(false);
     });
   });
 });

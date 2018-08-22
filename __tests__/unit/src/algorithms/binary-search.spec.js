@@ -7,13 +7,18 @@ const { expect } = chai;
 describe('Binary Search', () => {
   describe('using iteration', () => {
     it('should throw an error if given an unsorted array', () => {
-      function unsortedArraySearch() {
-        const array = [0, 1, 2, 3, 4, 5, 8, 6];
+      const array = [0, 1, 2, 3, 4, 5, 8, 6];
 
+      function unsortedArraySearch1() {
         binarySearch(array, 4);
       }
 
-      expect(unsortedArraySearch).to.throw(/not sorted/);
+      function unsortedArraySearch2() {
+        recursiveBinarySearch(array, 4);
+      }
+
+      expect(unsortedArraySearch1).to.throw(/not sorted/);
+      expect(unsortedArraySearch2).to.throw(/not sorted/);
     });
 
     it('should return the correct index of a search item', () => {

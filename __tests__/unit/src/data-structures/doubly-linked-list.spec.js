@@ -13,6 +13,7 @@ describe('DoublyLinkedListNode', () => {
 
   it('has properties "data" and "next"', () => {
     const node = new Node('a', 'b');
+
     expect(node.data).to.equal('a');
     expect(node.next).to.equal('b');
   });
@@ -26,16 +27,23 @@ describe('DoublyLinkedList', () => {
   describe('Insert First', () => {
     it('appends a node to the start of the list', () => {
       const dll = new DoublyLinkedList();
+
+      expect(dll.removeFirst()).to.be.an('undefined');
       expect(dll.print()).to.equal('');
+
+      dll.insertAt(1, 0);
       dll.insertFirst(1);
+
       expect(dll.head.data).to.equal(1);
       expect(dll.head.prev).to.equal(null);
       expect(dll.head.data).to.equal(1);
+
       dll.insertFirst(2);
+
       expect(dll.head.data).to.equal(2);
       expect(dll.head.next.prev.data).to.equal(2);
       expect(dll.head.next.data).to.equal(1);
-      expect(dll.print()).to.equal('2 1');
+      expect(dll.print()).to.equal('2 1 0');
     });
   });
 

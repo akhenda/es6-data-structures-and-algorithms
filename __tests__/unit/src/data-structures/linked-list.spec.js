@@ -28,6 +28,9 @@ describe('LinkedList', () => {
     it('appends a node to the start of the list', () => {
       const ll = new LinkedList();
 
+      expect(ll.removeFirst()).to.be.an('undefined');
+      expect(ll.print()).to.equal('');
+
       ll.insertFirst(1);
 
       expect(ll.head.data).to.equal(1);
@@ -297,7 +300,7 @@ describe('LinkedList', () => {
       ll.insertLast('c');
       ll.insertLast('d');
       ll.insertAt(2, 'hi');
-      
+
       expect(ll.getAt(0).data).to.equal('a');
       expect(ll.getAt(1).data).to.equal('b');
       expect(ll.getAt(2).data).to.equal('hi');

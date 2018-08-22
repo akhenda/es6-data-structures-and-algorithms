@@ -82,7 +82,7 @@ export default class PriorityQueue {
    * @return {any} the element in the rear position of the queue
    */
   back() {
-    return this._data[this._rear];
+    return this._data[this._rear - 1];
   }
 
   /**
@@ -98,7 +98,7 @@ export default class PriorityQueue {
    * @return {boolean}
    */
   isEmpty() {
-    return this._front - this._rear === 0;
+    return this._rear - 1 - this._front === 0;
   }
 
   /**
