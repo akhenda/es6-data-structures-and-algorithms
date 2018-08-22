@@ -1,3 +1,15 @@
+# [1.9.0](https://github.com/akhenda/es6-data-structures-and-algorithms/compare/v1.8.0...v1.9.0) (2018-08-22)
+
+
+### Features
+
+* **algorithm:** implement Graph Breadth First Search algorithm ([65c3db5](https://github.com/akhenda/es6-data-structures-and-algorithms/commit/65c3db5))
+* **algorithm:** implement Graph Depth First Search algorithm ([f571511](https://github.com/akhenda/es6-data-structures-and-algorithms/commit/f571511))
+* **algorithm:** implement Tree Breadth First Search algorithm ([8148dc4](https://github.com/akhenda/es6-data-structures-and-algorithms/commit/8148dc4))
+* **algorithm:** implement Tree Depth First Search algorithm ([3a556b2](https://github.com/akhenda/es6-data-structures-and-algorithms/commit/3a556b2))
+* **ds:** implement Binary Search Tree data structure ([e8f2468](https://github.com/akhenda/es6-data-structures-and-algorithms/commit/e8f2468))
+* **ds:** implement Tree data structure ([48ed0ed](https://github.com/akhenda/es6-data-structures-and-algorithms/commit/48ed0ed))
+
 # [1.8.0](https://github.com/akhenda/es6-data-structures-and-algorithms/compare/v1.7.0...v1.8.0) (2018-08-22)
 
 
