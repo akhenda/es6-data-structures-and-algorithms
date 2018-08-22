@@ -216,7 +216,7 @@ $ cd es6-data-structures-and-algorithms
 Install the required dependencies:
 
 ```
-$ npm install
+$ yarn install
 ```
 
 ## Testing
@@ -224,19 +224,19 @@ $ npm install
 To run both tests and linting, run:
 
 ```
-npm run validate
+yarn run validate
 ```
 
 To run the tests alone:
 
 ```
-npm run test
+yarn run test
 ```
 
 To run ESLint:
 
 ```
-npm run lint
+yarn run lint
 ```
 
 ## Usage
