@@ -1,3 +1,10 @@
+# [1.8.0](https://github.com/akhenda/es6-data-structures-and-algorithms/compare/v1.7.0...v1.8.0) (2018-08-22)
+
+
+### Features
+
+* **ds:** implement Graph data structure ([fd181ef](https://github.com/akhenda/es6-data-structures-and-algorithms/commit/fd181ef))
+
 # [1.7.0](https://github.com/akhenda/es6-data-structures-and-algorithms/compare/v1.6.0...v1.7.0) (2018-08-16)
 
 
