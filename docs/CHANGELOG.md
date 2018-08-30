@@ -1,3 +1,10 @@
+## [1.9.1](https://github.com/akhenda/es6-data-structures-and-algorithms/compare/v1.9.0...v1.9.1) (2018-08-30)
+
+
+### Bug Fixes
+
+* **repo:** configure semantic release to update package.json version ([59f3b9a](https://github.com/akhenda/es6-data-structures-and-algorithms/commit/59f3b9a))
+
 # [1.9.0](https://github.com/akhenda/es6-data-structures-and-algorithms/compare/v1.8.0...v1.9.0) (2018-08-22)
 
 

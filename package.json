@@ -1,6 +1,6 @@
 {
   "name": "es6-data-structures-and-algorithms",
-  "version": "0.0.1",
+  "version": "1.9.1",
   "description": "Popular Data Structures and Algorithms done in JavaScript ES6",
   "main": "index.js",
   "directories": {
