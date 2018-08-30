@@ -90,6 +90,10 @@
         "changelogFile": "docs/CHANGELOG.md"
       },
       {
+        "path": "@semantic-release/npm",
+        "npmPublish": false
+      },
+      {
         "path": "@semantic-release/git",
         "assets": [
           "package.json",
